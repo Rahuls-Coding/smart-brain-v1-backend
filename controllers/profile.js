@@ -13,4 +13,4 @@ const handleProfileGet = (req, res) => {
 
 }
 
-module.exports = {handleProfileGet: handleProfileGet}
+module.exports = {handleProfileGet: handleProfileGet} 
