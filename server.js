@@ -29,7 +29,7 @@ app.use(bodyparser.json())
 app.use(cors())
 
  
-
+ app.get("/", (req, res) => {res.send("it's working now!")})
 app.post('/signin', (req, res) => { signin.handleSignIn(req, res, db, bcrypt) })
 
 app.post("/register", (req, res) => {register.handleRegister(req, res, db, bcrypt)})
